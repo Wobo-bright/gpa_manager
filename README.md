@@ -50,8 +50,8 @@ All other libraries used are built-in (no external dependencies).
 2. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/your-username/gpa-calculator.git
-   cd gpa-calculator
+   git clone https://github.com/wobo-bright/gpa_manager.git
+   cd gpa_manager
    ```
 
 3. **Run the program**:
