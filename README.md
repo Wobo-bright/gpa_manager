@@ -57,7 +57,7 @@ All other libraries used are built-in (no external dependencies).
 3. **Run the program**:
 
    ```bash
-   python gpa_calculator.py
+   python gpa.py
    ```
 
 ---
