@@ -1,36 +1,98 @@
-🎓 GPA Calculator (Python CLI App)
-This is a command-line GPA calculator built with Python that allows students to manage and track their academic courses, grades, and compute their GPA efficiently.
+# 🎓 GPA Calculator – Python CLI App
 
-🔧 Features:
-Add Courses: Input course name, unit, and grade.
+This is a **command-line GPA calculator** written in Python that helps students manage their course details and calculate their GPA. The app allows users to add, update, delete, and view courses, as well as save and load semester records using JSON for persistent storage.
 
-View Courses: Display all saved courses with their unit and corresponding letter grade.
+---
 
-Update Details: Modify course name, unit, or grade.
+## ✨ Features
 
-Delete Courses: Remove a course from your semester list.
+* ✅ **Add Courses** – Save course name, unit, and grade
+* 📋 **View Courses** – Display all saved courses with units and letter grades
+* 📝 **Update Details** – Change course name, unit, or grade
+* 🗑️ **Delete Courses** – Remove courses by name
+* 🧮 **Calculate GPA** – GPA is computed using weighted grade points
+* 💾 **Save Semester** – Store your current course list to a `.json` file
+* 📂 **Load Semester** – Load your saved course list on app startup
+* 🚮 **Clear Records** – Reset all saved course data
 
-Calculate GPA: Computes GPA based on added courses and their weighted grades.
+---
 
-Save Records: Persist your semester data to a JSON file.
+## 🧠 Grading System
 
-Load Records: Load your saved semester data on startup or demand.
+| Grade | Value |
+| ----- | ----- |
+| A     | 5     |
+| B     | 4     |
+| C     | 3     |
+| D     | 2     |
+| E     | 1     |
+| F     | 0     |
 
-Clear Records: Wipe all saved course data.
+---
 
-🧠 Grading System:
-A = 5
+## 📦 Requirements
 
-B = 4
+* Python 3.6 or higher
+* install and import **tabulate**
 
-C = 3
+All other libraries used are built-in (no external dependencies).
 
-D = 2
+---
 
-E = 1
+## 🚀 Installation
 
-F = 0
+0. **Install the required moudule for tabulation**
+      ```bash
+      pip install tabulate
+   ```
+   
 
-📁 File Handling:
-All records are saved to a JSON file (Semester_rec.json) to allow data persistence across sessions.
+2. **Clone this repository**:
 
+   ```bash
+   git clone https://github.com/your-username/gpa-calculator.git
+   cd gpa-calculator
+   ```
+
+3. **Run the program**:
+
+   ```bash
+   python gpa_calculator.py
+   ```
+
+---
+
+## 🖥️ Usage
+
+After launching the program, you’ll see options to add, view, update, or manage course records. Follow the prompts by entering the corresponding number or command.
+
+Example:
+
+```
+Options:
+1. Add course details
+2. View course(s)
+3. Update course details
+...
+```
+
+---
+
+## 📁 File Storage
+
+The program saves and loads course records from a file named `Semester_rec.json` in the same directory. You can back this file up to save progress or start a new semester by clearing it.
+
+---
+
+## 🛠️ Future Improvements (Ideas)
+
+* Add CGPA tracking across semesters
+* Add input validation for edge cases
+* Add GUI interface (Tkinter or PyQt)
+* Export records to Excel or PDF
+
+---
+
+## 👤 Author
+
+**Bright** – *Python developer & student-focused tool builder*
